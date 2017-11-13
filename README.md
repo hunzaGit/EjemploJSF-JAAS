@@ -12,3 +12,8 @@ El proyecto contiene pruebas para ver el funcionamiento dentro del marco de trab
  - **Mojarra** 2.2.1
  - **PrimeFaces** 6.1
  - **Apache Tomcat** 8.5.23
+ 
+ 
+ ## Funcionamiento
+ 
+ Tiene un pantalla de inicio con dos enlaes a recursos (user.xhtml y admin.xhtml) y 3 roles (hardcodeados para mayor comodidad) (el user, el admin y un superusuario que puede acceder a ambos), si al intentar accede a un recurso no se está logueado te fuerza el login, de ser correcto te permite acceder y hacer logout, si no da error.
