@@ -12,6 +12,7 @@ El proyecto contiene pruebas para ver el funcionamiento dentro del marco de trab
  - **Mojarra** 2.2.1
  - **PrimeFaces** 6.1
  - **Apache Tomcat** 8.5.23
+ - **IntelliJ IDEA** 2017.2.6
  
  
  ## Funcionamiento
