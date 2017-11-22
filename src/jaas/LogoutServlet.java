@@ -24,7 +24,7 @@ public class LogoutServlet extends HttpServlet {
 		// Redirect the user to the secure web page.
 		// Since the user is now logged out the
 		// authentication form will be shown
-		response.sendRedirect(request.getContextPath() + "/indiceRedireccion.xhtml");
+		response.sendRedirect(request.getContextPath() + "/Login/indiceRedireccion.xhtml");
 		
 	}
 
