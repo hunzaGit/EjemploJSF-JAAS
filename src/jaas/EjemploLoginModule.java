@@ -72,8 +72,7 @@ public class EjemploLoginModule implements LoginModule {
 			if (name != null && name.equals("superuser") && password != null && password.equals("123")) {
 				login = name;
 				userGroups = new ArrayList<String>();
-				userGroups.add("user");
-				userGroups.add("admin");
+				userGroups.add("superuser");
 				System.out.println("name = " + name);
 				return true;
 			}
