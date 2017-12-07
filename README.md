@@ -13,6 +13,7 @@ El proyecto contiene pruebas para ver el funcionamiento dentro del marco de trab
  - **PrimeFaces** 6.1
  - **JSTL** 1.2
  - **Apache Tomcat** 8.5.23
+ - **Maven** 3.3.9
  - **IntelliJ IDEA** 2017.3
  
  
