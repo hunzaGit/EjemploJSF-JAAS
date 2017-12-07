@@ -8,12 +8,12 @@ El proyecto contiene pruebas para ver el funcionamiento dentro del marco de trab
 
  - **Java** 8
  - **JDK** 1.8.0_152
- - **JSF** 2.0
+ - **JSF** 2.2
  - **Mojarra** 2.2.1
  - **PrimeFaces** 6.1
- - **JSTL** 1.1.0
+ - **JSTL** 1.2
  - **Apache Tomcat** 8.5.23
- - **IntelliJ IDEA** 2017.2.6
+ - **IntelliJ IDEA** 2017.3
  
  
  ## Funcionamiento
