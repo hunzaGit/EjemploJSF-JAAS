@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+
+<h:head>
+    <title>Indice</title>
+
+</h:head>
+
+<h:body>
+
+
+    <h1>INDICE JSF-JAAS</h1>
+
+    <h2> <small><strong>Nombre:</strong> #{request.getRemoteUser()} </small></h2>
+    <h:link value="indice" outcome="indice"/>
+
+    <h:form>
+        <h:commandLink value="User" action="a_user"/><br/>
+        <h:commandLink value="Admin" action="a_admin"/><br/>
+        <h:commandLink value="logout" action="#{logoutAction.logout}"/><br/>
+
+    </h:form>
+
+
+</h:body>
+
+
+</html>
+
+ 	   

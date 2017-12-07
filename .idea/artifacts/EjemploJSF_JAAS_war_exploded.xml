@@ -2,16 +2,19 @@
   <artifact type="exploded-war" name="EjemploJSF-JAAS:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="EjemploJSF-JAAS/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="EjemploJSF-JAAS" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="PrimeFaces-6.1" />
-          <element id="library" level="project" name="Mojarra-2.2.1" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.1" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.15" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.15" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.el:javax.el-api:3.0.0" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="EjemploJSF-JAAS/web/Web" />
     </root>
   </artifact>
 </component>
