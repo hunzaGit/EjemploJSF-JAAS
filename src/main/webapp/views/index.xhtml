@@ -21,7 +21,13 @@
     <h:form>
         <h:commandLink value="User" action="a_user"/><br/>
         <h:commandLink value="Admin" action="a_admin"/><br/>
-        <h:commandLink value="logout" action="#{logoutAction.logout}"/><br/>
+        <a href="${pageContext.request.contextPath}/logout">Logout</a><br/>
+        <p/>
+
+        <h:commandLink value="A formulario" action="#{controladorClientPageAction.accion}">
+            <f:setPropertyActionListener target="#{controladorClientPageAction.evento}" value="#{eventos.FORMULARIO}" />
+        </h:commandLink>
+
 
     </h:form>
 

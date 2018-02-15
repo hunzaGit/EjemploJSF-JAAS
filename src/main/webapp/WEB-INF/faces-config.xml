@@ -14,6 +14,22 @@
         </managed-bean>
     -->
 
+    <managed-bean>
+        <managed-bean-name>controladorClientPageAction</managed-bean-name>
+        <managed-bean-class>presentacion.actions.ControladorClientPageAction</managed-bean-class>
+        <managed-bean-scope>application</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>numerosAction</managed-bean-name>
+        <managed-bean-class>presentacion.actions.NumerosAction</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>eventos</managed-bean-name>
+        <managed-bean-class>presentacion.actions.Eventos</managed-bean-class>
+        <managed-bean-scope>application</managed-bean-scope>
+    </managed-bean>
+
 
     <!-- ********* REGLAS DE NAVEGACIÓN ********* -->
 
@@ -23,6 +39,10 @@
             <from-outcome>indice</from-outcome>
             <to-view-id>/views/index.xhtml</to-view-id>
             <redirect/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>formulario</from-outcome>
+            <to-view-id>/views/formNumeros.xhtml</to-view-id>
         </navigation-case>
     </navigation-rule>
 
@@ -52,6 +72,34 @@
             <from-outcome>indice</from-outcome>
             <to-view-id>/views/index.xhtml</to-view-id>
             <redirect/>
+        </navigation-case>
+    </navigation-rule>
+
+
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>par</from-outcome>
+            <to-view-id>/views/par/par.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>impar </from-outcome>
+            <to-view-id>/views/impar/impar.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>user</from-outcome>
+            <to-view-id>/views/user/user.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>admin</from-outcome>
+            <to-view-id>/views/admin/admin.xhtml</to-view-id>
         </navigation-case>
     </navigation-rule>
 

@@ -114,7 +114,7 @@
         <auth-method>FORM</auth-method>
         <form-login-config>
             <form-login-page>/views/Login/login.html</form-login-page>
-            <form-error-page>/views/Login/error.html</form-error-page>
+            <form-error-page>/views/error.xhtml</form-error-page>
         </form-login-config>
     </login-config>
 

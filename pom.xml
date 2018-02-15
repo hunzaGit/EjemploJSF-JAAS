@@ -17,6 +17,9 @@
         <jdk.version>1.8</jdk.version>
         <primefaces.version>6.1</primefaces.version>
         <jsf.version>2.2</jsf.version>
+        <spring.version>4.3.12.RELEASE</spring.version>
+        <cxf.version>3.2.1</cxf.version>
+        <jaxb.version>2.2.11</jaxb.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -95,6 +98,92 @@
         </dependency>
 
 
+        <!-- ************************************ -->
+        <!-- **********  DEPENDENCIAS  ********** -->
+        <!-- **************  CXF  *************** -->
+        <!-- ************************************ -->
+
+        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf -->
+        <!-- <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf</artifactId>
+            <version>3.2.1</version>
+            <type>pom</type>
+        </dependency>
+        -->
+
+        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-core -->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-core</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-transports-http -->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-transports-http</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-frontend-jaxws</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+
+
+        <!-- ************************************ -->
+        <!-- **********  DEPENDENCIAS  ********** -->
+        <!-- *************  SPRING  ************* -->
+        <!-- ************************************ -->
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+
+        <!-- ************************************ -->
+        <!-- **********  DEPENDENCIAS  ********** -->
+        <!-- *************  JAXB  ************* -->
+        <!-- ************************************ -->
+
+        <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core -->
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-xjc</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
 
 
     </dependencies>

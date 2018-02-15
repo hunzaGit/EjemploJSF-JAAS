@@ -7,127 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbec907e-c8c6-4947-92d0-3052bacbfca7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/FactoriaNegocio.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/Servicios_Usuarios/IBrokerSAUsuario.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/TRes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/entidades/Usuario.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/entidades/schema1.xsd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/imp/FactoriaNegocioImp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/multiplicar/Multiplicar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/multiplicar/imp/MultiplicarImp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/restar/Restar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/restar/imp/RestarImp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/sumar/Sumar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/negocio/sumar/imp/SumarImp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/presentacion/actions/ControladorClientPageAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/presentacion/actions/Eventos.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/presentacion/actions/NumerosAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/error.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/formNumeros.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/impar/impar.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/info/info.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/par/par.xhtml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/EjemploJSF_JAAS_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/EjemploJSF_JAAS_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Mojarra_2_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/PrimeFaces_6_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/EjemploJSF-JAAS.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/FactoriaNegocio.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/TRes.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/imp/FactoriaNegocioImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/multiplicar/Multiplicar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/multiplicar/imp/MultiplicarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/restar/Restar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/restar/imp/RestarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/sumar/Sumar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/negocio/sumar/imp/SumarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/actions/DestinoAction.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/actions/Eventos.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/actions/LogoutAction.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/actions/NumerosAction.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/seguridad/JAASPasswordPrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/seguridad/JAASRolePrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/seguridad/JAASUserPrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/operaciones/presentacion/seguridad/OperacionesLoginModule.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.faces-2.2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/jstl-1.1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/primefaces-6.1-sources.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/primefaces-6.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/Login/error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/Login/indiceRedireccion.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/Login/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/META-INF/context.xml.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/classes/jaas/EjemploLoginModule.class" afterPath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/classes/jaas/EjemploLoginModule.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/classes/jaas/LogoutServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/classes/jaas/LogoutServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/faces-config.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/lib/javax.faces-2.1.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/lib/javax.faces-2.2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/lib/jstl-1.1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/admin/admin.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/admin/admin.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/form.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/index.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/user/user.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EjemploJSF_JAAS_war_exploded/user/user.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/META-INF/context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/classes/com/byteslounge/jaas/BytesLoungeLoginModule.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/classes/com/byteslounge/jaas/LogoutServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/classes/com/byteslounge/jaas/RolePrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/classes/com/byteslounge/jaas/UserPrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/faces-config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/lib/javax.faces-2.1.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/lib/javax.faces-2.2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/lib/jstl-1.1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/lib/primefaces-6.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/admin/admin.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/admin/admin.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/config/jaas.config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/error.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/form.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/index.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/indiceRedireccion.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/user/user.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OperacionesJSF_JAAS_war_exploded/user/user.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjemploJSF-JAAS/jaas/EjemploLoginModule.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjemploJSF-JAAS/jaas/LogoutServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjemploJSF-JAAS/jaas/RolePrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjemploJSF-JAAS/jaas/UserPrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/FactoriaNegocio.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/TRes.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/imp/FactoriaNegocioImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/multiplicar/Multiplicar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/multiplicar/imp/MultiplicarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/restar/Restar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/restar/imp/RestarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/sumar/Sumar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/negocio/sumar/imp/SumarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/presentacion/actions/ControladorClientPageAction.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/presentacion/actions/Eventos.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldJSF/presentacion/actions/NumerosAction.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF-JAAS/com/byteslounge/jaas/BytesLoungeLoginModule.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF-JAAS/com/byteslounge/jaas/LogoutServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF-JAAS/com/byteslounge/jaas/RolePrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF-JAAS/com/byteslounge/jaas/UserPrincipal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/FactoriaNegocio.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/TRes.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/imp/FactoriaNegocioImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/multiplicar/Multiplicar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/multiplicar/imp/MultiplicarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/restar/Restar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/restar/imp/RestarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/sumar/Sumar.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/negocio/sumar/imp/SumarImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/presentacion/actions/ControladorClientPageAction.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/presentacion/actions/Eventos.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/OperacionesJSF/presentacion/actions/NumerosAction.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jaas/EjemploLoginModule.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jaas/LogoutServlet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jaas/RolePrincipal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jaas/UserPrincipal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/Login/error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/Login/indiceRedireccion.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/Login/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.faces-2.1.9.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/admin/admin.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/admin/admin.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/form.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/user/user.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/user/user.xhtml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/Login/error.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/admin/admin.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/admin.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.xhtml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/user/user.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/views/user/user.xhtml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,78 +47,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-982">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogoutServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jaas/LogoutServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faces-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/form.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="34">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -218,28 +61,8 @@
       <file leaf-file-name="admin.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/admin/admin.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/user.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -258,10 +81,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/Login/error.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/admin.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/jaas/LogoutServlet.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/Login/error.html" />
+        <option value="$PROJECT_DIR$/src/main/java/jaas/negocio/imp/FactoriaNegocioImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/negocio/imp/FactoriaNegocioImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/negocio/TRes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/negocio/Servicios_Usuarios/IBrokerSAUsuario.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/formNumeros.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/user/user.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/presentacion/actions/NumerosAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/admin.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
       </list>
     </option>
   </component>
@@ -283,10 +117,11 @@
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -307,6 +142,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,13 +156,118 @@
               <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jaas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="negocio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="negocio" type="462c0819:PsiDirectoryNode" />
+              <item name="entidades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="negocio" type="462c0819:PsiDirectoryNode" />
+              <item name="Servicios_Usuarios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="negocio" type="462c0819:PsiDirectoryNode" />
+              <item name="sumar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="negocio" type="462c0819:PsiDirectoryNode" />
+              <item name="sumar" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EjemploJSF-JAAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EjemploJSF-JAAS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,9 +275,27 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/negocio" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+      <recent name="$PROJECT_DIR$/src/main/java/jaas" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="negocio.Servicios_Usuarios" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -518,48 +478,52 @@
       <option name="presentableId" value="Default" />
       <updated>1512646698034</updated>
       <workItem from="1512646699230" duration="1637000" />
+      <workItem from="1513858167501" duration="608000" />
+      <workItem from="1518690664416" duration="7728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1637000" />
+    <option name="totallyTimeSpent" value="10237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3097015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16809729" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42989418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +537,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/Login/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jaas/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/admin/admin.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/user.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -581,11 +580,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/Login/error.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/error.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,18 +679,294 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EjemploJSF-JAAS.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jaas/UserPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jaas/RolePrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jaas/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jaas/EjemploLoginModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/Login/indiceRedireccion.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/error.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/impar/impar.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/form.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/presentacion/actions/ControladorClientPageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/FactoriaNegocio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/imp/FactoriaNegocioImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/sumar/Sumar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/Servicios_Usuarios/IBrokerSAUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/entidades/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2958">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/entidades/schema1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/sumar/imp/SumarImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/presentacion/actions/Eventos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/negocio/TRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="101" column="39" lean-forward="false" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/formNumeros.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="70" lean-forward="false" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/par/par.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/user/user.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/presentacion/actions/NumerosAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/admin/admin.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -694,7 +990,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (EjemploJSF-JAAS)|Web</last-edited>
+          <last-edited>WebServices (EjemploJSF-JAAS)|WebServices</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -729,7 +1025,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|EjemploJSF-JAAS</last-edited>
+          <last-edited>WebServices Client|EjemploJSF-JAAS</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
